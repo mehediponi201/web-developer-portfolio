@@ -126,4 +126,37 @@ font-size: 18px;
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+} 
+.resume-container{
+    display: flex; 
+    gap: 50px;
+} 
+.resume-item-institude, .resume-item-description{
+    color: #757575;
+} 
+.resume-item-title{
+color: #474747;
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 10px; 
+} 
+.resume-item-institude{
+    margin-bottom: 20px;
+    margin-top: 0px; 
+}
+.resume-container hr{
+    margin: 30px; 
+} 
+.download-cv{
+    text-align: center;
+    margin-top: 50px; 
+} 
+/* footer style */ 
+footer{
+    display: flex; 
+    background: #FFF8F3;
+    margin-top: 100px; 
+    padding-left: 130px 200px; 
 }
